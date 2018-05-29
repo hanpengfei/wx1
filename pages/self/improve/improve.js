@@ -1,16 +1,13 @@
-// pages/self/self.js
+// pages/self/improve/improve.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    grids: [{id:0,}]
+  
   },
 
-  nvClick:function(event){
-    wx.showToast({"title":"大傻逼"});
-  },
   /**
    * 生命周期函数--监听页面加载
    */
