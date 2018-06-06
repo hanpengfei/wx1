@@ -1,42 +1,12 @@
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/self/self",
-    "pages/self/improve/improve"
+    "pages/logs/logs"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "生活",
-        "iconPath": "image/中国风建筑.png",
-        "selectedIconPath": "image/中国风建筑.png"
-      },
-      {
-        "pagePath": "pages/self/self",
-        "text": "娱乐",
-        "iconPath": "image/舞狮.png",
-        "selectedIconPath": "image/舞狮.png"
-      },
-      {
-        "pagePath": "pages/self/self",
-        "text": "购物",
-        "iconPath": "image/爆竹.png",
-        "selectedIconPath": "image/爆竹.png"
-      },
-      {
-        "pagePath": "pages/self/self",
-        "text": "我的",
-        "iconPath":"image/钱袋.png",
-        "selectedIconPath":"image/钱袋.png"
-      }
-    ]
+    "navigationBarTextStyle":"black"
   }
 }
