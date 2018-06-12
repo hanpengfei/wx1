@@ -1,15 +1,18 @@
-/**app.wxss**/
-.container {
+Page {
+  background-color: #e7e7e7;
+  color: #000;
+  font-size: 30rpx;
+  width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  justify-content: space-between;
-  padding: 200rpx 20rpx;
-  box-sizing: border-box;
 }
-page{
 
-  background:url(http://avc.qcloud.com/demo/webim/biggroup/mobile/img/back-img2.png);
-  background-size:100%;
+/*  */
+.background-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+button[disabled]:not([type]) {
+  background-color:rgb(85,188,250);
+  color: #fff;
 }
